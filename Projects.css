@@ -474,5 +474,95 @@
     margin-top: -282px;
   }
 }.u-section-4 .u-sheet-1 {
-  min-height: 102px;
+  min-height: 640px;
+  padding: 28px 18px 48px;
+}
+
+.u-section-4__wrap {
+  background: #f0d76f;
+  border-radius: 10px;
+  padding: 26px 24px 32px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.u-section-4__wrap .u-text-1 {
+  font-size: 2.2rem;
+  margin: 0 0 6px;
+}
+
+.u-section-4__wrap .u-text-2 {
+  font-size: 1.05rem;
+  margin: 0 0 22px;
+  color: #54420c;
+}
+
+.u-section-4__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.u-section-4__group {
+  flex: 1 1 320px;
+  min-width: 0;
+}
+
+.u-section-4__group .u-text-3,
+.u-section-4__group .u-text-4 {
+  font-size: 1.15rem;
+  margin: 0 0 12px;
+  color: #4a3b03;
+}
+
+.u-section-4__cards {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.u-section-4__card {
+  flex: 1 1 140px;
+  min-height: 170px;
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  margin: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.u-section-4__card--one {
+  background-image: url("ggggg.png");
+}
+
+.u-section-4__card--two {
+  background-image: url("images/WhatsAppImage2026-05-11at18.13.16.jpeg");
+}
+
+.u-section-4__card--three {
+  background-image: url("images/WhatsAppImage2026-05-11at20.28.24.jpeg");
+}
+
+.u-section-4__card--four {
+  background-image: url("images/WhatsAppImage2026-05-11at20.28.25.jpeg");
+}
+
+@media (max-width: 767px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: auto;
+    padding: 16px 12px 28px;
+  }
+
+  .u-section-4__wrap {
+    padding: 18px 14px 22px;
+  }
+
+  .u-section-4__cards {
+    gap: 10px;
+  }
+
+  .u-section-4__card {
+    min-height: 120px;
+  }
 }
